@@ -2,6 +2,7 @@
   <div class="headerNavBar">
     <div>
       <div>
+      <!-- <b-navbar toggleable="lg" type="dark" variant="dark"> -->
       <b-navbar toggleable="lg" type="dark" variant="dark">
         <b-navbar-brand href="#">Candy</b-navbar-brand>
 
@@ -35,8 +36,6 @@
       </b-navbar>
       </div>
     </div>
-  
-  
   </div>
 </template>
 
@@ -45,6 +44,7 @@ export default {
   name: 'HeaderNavBar',
   data: () => {
   return {
+
   }
   }
 }
