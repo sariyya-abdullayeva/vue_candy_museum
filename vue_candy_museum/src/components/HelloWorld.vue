@@ -1,13 +1,9 @@
 <template>
   <div class="hello" v-bind:style="{ backgroundColor: color}">
     <div>
-        <b-navbar id="mainNavBar" type="dark" variant="dark">
-          <b-nav-item href="#">Cand</b-nav-item>
-        </b-navbar>
+      <p>Hellow world component</p>
     </div>
-
-    <p>Here is hello</p>
-  </div>
+   </div>
 </template>
 
 <script>
