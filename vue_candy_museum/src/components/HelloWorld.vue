@@ -20,6 +20,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+.hello{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
 
 </style>

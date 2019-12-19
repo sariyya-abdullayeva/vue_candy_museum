@@ -19,11 +19,13 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Emilys+Candy|Open+Sans+Condensed:300&display=swap');
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  /* font-family: 'Emilys Candy', cursive,    */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  margin-top: 0px;
+  margin: 0px 1em;
 }
+
 </style>
