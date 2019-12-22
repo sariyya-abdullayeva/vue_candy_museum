@@ -2,7 +2,7 @@
   <div class="headerNavBar">
     <div>
       <div>
-      <b-navbar toggleable="lg" type="light" variant="light" >
+      <b-navbar toggleable="lg" type="light" variant="light" fixed="top">
         <b-navbar-brand href="#" class="navBarBrand">Candy</b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -14,7 +14,7 @@
 
           <!-- Right aligned nav items -->
           <b-navbar-nav class="ml-auto">
-            <b-nav-item-dropdown id ='Candy' text="candy" right>
+            <b-nav-item-dropdown id ='Candy' text="Candy" right>
               <b-dropdown-item href="#">Chocolate</b-dropdown-item>
               <b-dropdown-item href="#">Jelly</b-dropdown-item>
               <b-dropdown-item href="#">Macaroon</b-dropdown-item>
@@ -56,6 +56,7 @@ export default {
 .headerNavBar .navBarBrand{
     color:#ca0a7f;
     font-size: 1.5rem;
+    
 }
 .headerNavBar #nav-collapse{
     font-size: 1.5rem;

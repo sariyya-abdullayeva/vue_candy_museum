@@ -7,11 +7,12 @@ import { LayoutPlugin } from 'bootstrap-vue'
 import { ModalPlugin } from 'bootstrap-vue'
 import { CardPlugin } from 'bootstrap-vue'
 import { DropdownPlugin, TablePlugin } from 'bootstrap-vue'
+import { VBVisible } from 'bootstrap-vue'
 
 
 Vue.use(DropdownPlugin)
 Vue.use(TablePlugin)
-
+Vue.directive('b-visible', VBVisible)
 Vue.use(CardPlugin)
 Vue.use(ModalPlugin)
 Vue.use(LayoutPlugin)
